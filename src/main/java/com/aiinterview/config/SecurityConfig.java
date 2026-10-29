@@ -35,9 +35,9 @@ public class SecurityConfig {
     CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
 
-        configuration.setAllowedOrigins(List.of(
-                "https://ai-interview-practice-system-fronte-five.vercel.app"
-        ));
+       configuration.setAllowedOrigins(List.of(
+    "https://ai-interview-practice-system-fronte-psi.vercel.app"
+));
 
         configuration.setAllowedMethods(
                 List.of("GET", "POST", "OPTIONS")
